@@ -1,0 +1,785 @@
+﻿ <!DOCTYPE html>
+<html class="mdl-js" lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Леонид Александрович Саута: Здоровая потенция может быть в любом возрасте!</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link media="all" href="index_files\index.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="index_files\jquery.js"></script>
+    <script type="text/javascript" src="index_files\data.js"></script>
+    <script type="text/javascript" src="index_files\popUp.js"></script>
+<script src="code.jquery.com\jquery-latest.js"></script>
+
+<!-- <script type="text/javascript">
+        window._pt_lt = new Date().getTime();
+        window._pt_sp_2 = [];
+        _pt_sp_2.push('setAccount,1e677f16');
+        var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        (function() {
+            var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true;
+            atag.src = _protocol + 'cjs.ptengine.com/pta_en.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(atag, s);
+        })();
+</script> -->
+                
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+<script>
+$(document).ready(function(){
+	$('a').bind('click', function(){
+		yaCounter52327798.reachGoal('click');
+	});
+	
+        
+    $('.timepicker').html(`<option value='0'>Когда Вам перезвонить?</option>
+<option value='18:00-19:00'>В ближайшее время</option>
+<option value='18:00-19:00'>Сегодня с 18:00 до 19:00</option>
+<option value='19:00-20:00'>Сегодня с 19:00 до 20:00</option>
+<option value='20:00-21:00'>Сегодня с 20:00 до 21:00</option>
+<option value='21:00-22:00'>Сегодня с 21:00 до 22:00</option>
+<option value='9:00-10:00'>Завтра с 9:00 до 10:00</option>
+<option value='10:00-11:00'>Завтра с 10:00 до 11:00</option>
+<option value='11:00-12:00'>Завтра с 11:00 до 12:00</option>
+<option value='12:00-13:00'>Завтра с 12:00 до 13:00</option>
+<option value='13:00-14:00'>Завтра с 13:00 до 14:00</option>
+<option value='14:00-15:00'>Завтра с 14:00 до 15:00</option>
+<option value='15:00-16:00'>Завтра с 15:00 до 16:00</option>
+<option value='16:00-17:00'>Завтра с 16:00 до 17:00</option>
+<option value='17:00-18:00'>Завтра с 17:00 до 18:00</option>
+`);
+});
+</script>
+
+
+
+<script>
+  	function getCookie(name) {
+        var cookie = " " + document.cookie;
+        var search = " " + name + "=";
+        var setStr = null;
+        var offset = 0; 
+        var end = 0;
+        if (cookie.length > 0) {	
+            offset = cookie.indexOf(search);
+            if (offset != -1) { 
+                offset += search.length;
+                end = cookie.indexOf(";", offset)  
+                if (end == -1) {
+                    end = cookie.length;  
+                }
+                setStr = unescape(cookie.substring(offset, end));
+            } 
+        } 
+        return(setStr);	
+    };
+    
+window.addEventListener("load", function(){
+    var date = new Date();
+    var start = date.getTime();
+
+    var info={
+        hash : getCookie("hash"),
+        stay : 0,
+        scrolling : 0,
+        time_spent : 0,
+        width : screen.width,
+		height : screen.height,
+        load_time : window.performance.timing.domContentLoadedEventEnd - window.performance.timing.responseStart,
+        connect_time : window.performance.timing.responseStart - window.performance.timing.navigationStart
+    }
+    
+    $.ajax({
+        url : '/send.php',
+        type : "POST",
+        dataType: 'json',
+        data: info 
+    });
+   
+    $(window).scroll(function(){
+		var height = $(document).height() - $(window).height();
+        var scrollHeight = $(window).scrollTop();
+        var result = parseInt((scrollHeight*100)/height);
+        if(info.scrolling<result) {
+            info.scrolling=result;
+        }    
+    });
+    
+	
+	
+    window.onbeforeunload = function() {
+        info.time_spent = Math.round((new Date().getTime() - start) / 1000);
+       
+        $.ajax({
+            url : '/send.php',
+            type : "POST",
+            dataType: 'json',
+            data: info 
+        });
+        
+    };
+    
+    setTimeout(function(){
+        info.stay=1;
+    }, 15000);
+    
+    
+    /*$("form").submit(function(e) {
+    
+      let fio = $('[name="fio"]').val();
+      let phone = $('[name="phone"]').val();
+      let flow = $('[name="flow"]').val();
+
+      $.post(`/thankyou.php?hash=${hash}&gasket_lead=1`, {fio: fio, phone: phone, flow: flow});      
+
+      isFormSubmit = true;
+    });*/
+  
+}, false);
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    setTimeout("window.history.pushState('state2', false, '/alfa-commander-ukr-assc-sauta-f/');", 0);
+});
+
+//shopfront
+
+var hash = getCookie('hash'); 
+
+</script>
+
+<!-- <script type="text/javascript" src="//www.gstatic.com/firebasejs/3.6.8/firebase.js"></script>
+<script type="text/javascript" src="/firebase_subscribe.js"></script> -->
+</head>
+<body>
+    <!-- ВСПЛЫВАШКА ФУТЕРА -->
+    <div class="container">
+        <header>
+            <div class="conContent">
+                <div class="images-logo">
+                    <img src="index_files\bogomolec.jpg" alt="">
+                    <img src="index_files\pharmacy-312139_960_720.png" alt="">
+                </div>
+                <div class="text-header">
+                    <h1 style="padding: 15px;">Ассоциация врачей урологов и андрологов</h1>
+                    <p>О проблемах с потенцией у мужчин после 35 лет и злоупотреблении химическими препаратами, такими как Виагра и Сиалис.</p>
+                </div>
+            </div>
+        </header>
+        <div style="margin-top: 5px;" class="content">
+            <h1>Потенции хватит и на жену и на любовницу, в любом возрасте и по 2-3 часа! Как вылечить все проблемы с потенцией раз и навсегда?
+            </h1>
+            <div class="text" id="last">
+                <style type="text/css">
+                    .action-extended {
+                        padding: 20px;
+                        margin: 10px 0;
+                        color: red;
+                        border: 3px solid red;
+                        font-size: 20px;
+                        text-align: center !important;
+                        background-color: #fffd9d;
+                    }
+                </style>
+                <p class="action-extended">Стартовала программа! Теперь каждый может бесплатно получить одну упаковку препарата, который в разы сильнее и безопаснее "Виагры"! Действует только с
+                    <script type="text/javascript">
+                        d = new Date();
+                        p = new Date(d.getTime() - 7 * 86400000);
+                        monthA = '01,02,03,04,05,06,07,08,09,10,11,12'.split(',');
+                        document.write(p.getDate() + '.' + monthA[p.getMonth()]);
+                    </script> по
+                    <script type="text/javascript">
+                        d = new Date();
+                        p = new Date(d.getTime() + 0 * 86400000);
+                        monthA = '01,02,03,04,05,06,07,08,09,10,11,12'.split(',');
+                        document.write(p.getDate() + '.' + monthA[p.getMonth()]);
+                    </script> (включительно)! Для участия нажмите внизу на кнопку "ПОЛУЧИТЬ 1 УПАКОВКУ БЕСПЛАТНО"
+                </p>
+                <div style="text-align: left; font-weight: 600;">
+                    <span style="font-style: italic;">
+            <span style="color: rgb(0, 204, 204);"></span>
+                    </span>
+                    <p style="background-color: rgb(239, 239, 239); padding: 6px; font-weight: 700; font-size: 15px;">
+                        Для начала немного статистики: оказывается 7 из 10 мужчин старше 35 лет периодически сталкиваются с проблемами с потенцией. Это может быть как частичная, так и полная потеря эрекции, преждевременная эякуляция, снижение чувствительности, невозможность
+                        доведения до конца полового акта.
+                    </p>
+                    <h2>Импотенция - причина разводов, ссор, измен!</h2>
+                    <h3>Здравствуйте, дорогие мои!</h3>
+                    <p>
+                        Сегодня я решил поднять очень деликатную и в то же время важную тему -
+                        <b>мужское здоровье</b>. Каждый день я получаю множество просьб рассказать о современных средствах восстановления потенции.
+                        <br> Удивительно, но чаще всего эти вопросы задают женщины, которые хотят помочь своим мужьям справиться с этой серьезной проблемой. Мужчины же часто склонны до последнего закрывать на проблему глаза, и даже когда необходимость
+                        лечения становится для них очевидной, они не спешат идти к врачу. Их можно понять, никто не хочет обсуждать с незнакомым человеком столь интимные вещи, даже если это врач. Поэтому сегодня я постараюсь рассказать о том, как быстро
+                        и безопасно восстановить потенцию без обращения к специалистам, химии и операций.
+                    </p>
+                    <p>К сожалению, стоит отметить, что проблемы в постели у современных мужчин появляются гораздо раньше. "Осечки" начинают происходить уже после 35 лет, а иногда и в более юном возрасте. Если не заботиться о собственном здоровье, то, к
+                        сожалению, с годами мужчину ждет импотенция. Чаще всего, после нескольких провалов на любовном фронте мужчины начинают использовать ВИАГРУ и другие аналогичные синтетические препараты, не стоит этого делать! Да, действительно,
+                        виагра и подобные средства обеспечивают сильную эрекцию, но лишь на короткое время. Эти средства не лечат! Кроме того, со временем мужчина теряет уверенность в собственных силах и уже не может обходиться без волшебных таблеток.
+                    </p>
+                    <div style="text-align: center;">
+                        <img src="index_files\cirurgiadisfuncaoeretil-300x276.gif" style="float: right; padding-left: 20px; width:230px;" class="imgFl" alt="">
+                        <br>
+                        <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600;font-size: 19px"> Может ли быть потенция в любом возрасте? Как обойтись без химии?</a>
+                    </div>
+                    <p></p>
+                    <p>
+                        У всех на слуху истории звезд, мужчин, которые уже в солидном возрасте заводили молодых любовниц или женились на девушках гораздо моложе их самих. Более того, в таких браках появляются детки, мужчины на седьмом небе от счастья, а их молодые жены с гордостью
+                        шепчутся об успехах мужа в постели. Как же им это удается? Неужели виагра и подобные средства? Разумеется, нет! Я имел возможность задать этот деликатный вопрос таким мужчинам, и впервые от них услышал о замечательном средстве,
+                        это
+                        <a href="https://life-medicine.shop/alfa-commander-a/?hash=724e970a811382e2f5b9f63efe64c485&" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a>. Он состоит из натуральных компонентов. Еще недавно это мощнейшее средство можно было купить только за очень большие деньги, но сейчас оно стало
+                        доступно для всех и при этом не потеряло в качестве.
+                        <br>
+                    </p>
+                    <div class="yourChance">
+                        <p>Нам удалось запустить программу. Цель программы: дать каждому человеку возможность вылечить проблемы с потенцией пока они не переросли в более тяжелую форму, вне зависимости от его финансового состояния.
+                            <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">В рамках этой программы, каждый может бесплатно получить одну упаковку "Ашваганда"!</a>
+                        </p>
+                        <p>Акция пройдет до
+                            <script type="text/javascript">
+                                var d = new Date();
+                                var curr_date = d.getDate();
+                                var curr_month = d.getMonth() + 1;
+                                var curr_year = d.getFullYear();
+                                if (curr_month < 10) curr_month = '0' + curr_month;
+                                if (curr_date < 10) curr_date = '0' + curr_date;
+                                document.write(curr_date + '.' + curr_month + '.' + curr_year);
+                            </script> включительно! Чтобы сделать заказ достаточно вписать свое имя (все конфиденциально) и номер телефона для связи на официальном сайте продукта.</p>
+                    </div>
+                    <img src="https://ashvaganda1l.nutragoods.ru/img/pack.png" alt="" style="float: left; padding-right:10px; width:230px;" class="imgFl">
+                    <p>
+                        Потребовалось долгое время на проведение лабораторных тестов, получены все необходимые сертификаты о безопасности и эффективности в лечении. Также проведены масштабные клинические исследования на добровольцах в украинском институте
+                        <b>НМУ Урологии</b>, которые также показали великолепный результат.
+                        <br>
+                        <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a> действительно работает, но в отличие от той же виагры дает мгновенный и длительный эффект, который сохраняется на 5 часов, после одного применения.
+                        Сейчас разберем основные эффекты, на которые можно рассчитывать применив его.
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                        <b>1. Усиление эрекции:</b> возбуждение наступает мгновенно, стабильная эрекция сохраняется на протяжении всего полового акта до 2 - 3 часов.
+                        <br>
+                        <br>
+                        <b>2. Продление полового акта:</b> время полового акта значительно увеличивается до 2 - 3 часов. Это важно, так как если мужчина "кончает" очень быстро, то женщина не успевает получить полноценное удовольствие.
+                        <br>
+                        <br>
+                        <b>3. Усиление влечения:</b> важно для мужчин в возрасте, сексуальное желание просыпается гораздо чаще и заметно усиливается.
+                        <br>
+                        <br>
+                        <b>4. Увеличение размера члена:</b> благодаря полной и сильной эрекции происходит не столь заметное но ощутимое увеличение полового члена, что сказывается на удовлетворенности партнерши.
+                        <br>
+                        <br>
+                        <b>5. Качество спермы:</b> Заметно увеличивается качество и количество спермы, которое выбрасывается при оргазме.
+                        <br>
+                        <br>
+                        <b>6. Яркий оргазм:</b> Значительно усиливается оргазм у мужчины, благодаря повышению чувствительности полового члена и усилению либидо.
+                    </p>
+                    <div style="text-align: center;">
+                        <a href="google.com">
+                            <img src="index_files\sert.jpg" tabindex="0" style="float: right; padding: 5px; max-width: 270px; height: 200px;" class="imgFl">
+                        </a>
+                    </div>
+                    <p>Меня часто спрашивают, можно ли добиться хорошей потенции и качественной, стабильной эрекции в возрасте за 50 лет. Конечно же, да! Более того, в таком возрасте для мужчины регулярная половая жизнь - это норма! Скажу вам больше, даже
+                        в возрасте далеко за 60 можно восстановить потенцию с помощью таких натуральных средств как
+                        <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a>, применив который вы сможете заниматься сексом буквально часами. Очень важно, что это средство полностью натурально и безопасно для здоровья,
+                        его можно использовать в любом возрасте. Кроме того,
+                        <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a> прекрасно подойдет и для молодых людей, которые столкнулись с проблемами в постели. В их случае проблема находится на психологическом уровне,
+                        в неуверенности в себе или неопытности. После
+                        <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a> сильная эрекция будет возникать даже несмотря на волнение и стресс! </p>
+                    <p>
+                        Подводя итог, хочу еще раз обратиться к мужчинам в возрасте, у которых сейчас молодые жены и девушки. Не допускайте проблем с потенцией, помните, что секс и удовлетворение в постели крайне важно для всех женщин, а особенно для молодых. Если вы не будете
+                        регулярно и качественно заниматься сексом, то вы сделаете свою вторую половинку несчастной! В перспективе это может привести даже к разводу или измене.
+                    </p>
+                </div>
+                <div class="block2">
+                    <p>
+                        <span class="red">Внимание!</span> Участились случаи продажи подделок
+                        <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a>, который не имеет лечебных свойств! Поэтому мы специально для наших зрителей размещаем форму заказа средства
+                        <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a> от
+                        <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">единственного официального поставщика!</a> Делая заказ здесь, вы гарантированно получите качественный продукт.
+                    </p>
+                </div>
+                <br>
+                <br>
+                <div style="margin-top: -20px;" class="conteinerCenter">
+                    <div style="text-align:center; display:inline-block; width: 100%;">
+                        <a href="google.com">
+                            <img src="https://ashvaganda1l.nutragoods.ru/img/pack.png" class="newLogoType" alt="">
+                        </a>
+                        <div class="newBLImg">
+                            <a href="google.com">
+                                <img src="index_files\guarantee.png" style="float: left;" class="newLogoType1 newBLImg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="maxB">
+                        <br>
+                        <div style="text-align: center;">
+                            <h2>Напоминаю, что программа, в рамках которой можно получить одну упаковку препарата бесплатно,
+                                <span style="color: red"></span> действует лишь до
+                                <span class="js-date-1" style="color: red">3 мая</span> включительно. </h2>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div style="border: 1px solid #cdcdcd; padding: 20px; text-align: left; font-size: 90%; color:#666666;">
+                        <h3>"Ашваганда" - клинические исследования и мнение специалистов</h3>
+                        <p>
+                            <b>Пушкарь Дмитрий Юрьевич</b>
+                            <br>
+                            <i>Заведующий кафедрой урологии. Доктор медицинских наук, профессор, главный уролог МЗ.</i>
+                        </p>
+                        <h4>Химический анализ и влияние на потенцию</h4>
+                        <p>Основные компоненты препарата "Ашваганда" - готу кола, красная щетка, сибирское каменное масло, калган, йохимбе, медвежий лук. Именно это сочетание компонентов усиливает естественную потенцию, а не просто нагнетает кровь к половым
+                            органам.
+                        </p>
+                        <p>Таким образом "Ашваганда" стимулирует половую функцию и способствует решению следующих мужских проблем:</p>
+                        <ul>
+                            <li>- Усиливает половое влечение;</li>
+                            <li>- Увеличивает остроту ощущений во время полового акта;</li>
+                            <li>- Повышает половое влечение и продлевает потенцию у мужчин;</li>
+                            <li>- Укорачивает рефрактерную паузу между эрекциями, увеличивает объём и качество спермы;</li>
+                            <li>- Поддерживает иммунную систему и работу надпочечников;</li>
+                            <li>- Оказывает мягкое противовоспалительное действие на предстательную железу.</li>
+                        </ul>
+                        <h4>Как получить препарат "Ашваганда"?</h4>
+                        <p>
+                            Оформить заказ можно только на
+                            <a class="vtbadlink under-href" style="font-weight: bold;color:#ff6600" href="google.com">официальном сайте</a> препарата. Доставка осуществляется наложенным платежом или курьером без предоплаты, то есть вы оплачиваете посылку только
+                            после того, как посылка уже пришла и находится в ваших руках.</p>
+                        <p>
+                            <strong>Сейчас действует программа «Одна упаковка Ашваганда бесплатно»
+                <br>
+              </strong>
+                        </p>
+                        <p>Программа проходит в течении недели c
+                            <script type="text/javascript">
+                                d = new Date();
+                                p = new Date(d.getTime() - 7 * 86400000);
+                                monthA = '01,02,03,04,05,06,07,08,09,10,11,12'.split(',');
+                                document.write(p.getDate() + '.' + monthA[p.getMonth()]);
+                            </script> до
+                            <span class="green">
+                <script type="text/javascript">
+                  d = new Date();
+                  p = new Date(d.getTime() + 0 * 86400000);
+                  monthA = '01,02,03,04,05,06,07,08,09,10,11,12'.split(',');
+                  document.write(p.getDate() + '.' + monthA[p.getMonth()]);
+                </script>
+              </span> включительно! Чтобы оформить заявку достаточно вписать свои ФИО и номер телефона для связи на&nbsp;
+                            <a class="vtbadlink under-href" style="font-weight: bold;color:#ff6600" href="google.com">официальном сайте</a>&nbsp; "Ашваганда" и дождаться звонка для подтверждения заявки.</p>
+                        <!-- <div class="m-item-post-img-block">
+                            <center>
+                                <img src="/alfa-commander-ukr-assc-sauta-f//med-info_potencia-aligator-0/index_files/product2.png">
+                            </center>
+                        </div> -->
+                    </div>
+                    <br>
+                </div>
+
+                <center>
+         
+        </center>
+
+
+                   
+                    <div style="text-align: center;">
+                        <div class="insite">
+                            <a href="google.com" class="button_page">
+                 ПОЛУЧИТЬ 1 УПАКОВКУ БЕСПЛАТНО</a>
+                        </div>
+                    </div>
+<style type="text/css">
+#form {
+    background-color: #2989D7;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    line-height: 1.5;
+}
+.inner-form {
+    border: 3px dashed rgb(255, 255, 255);
+    padding: 3% 5%;
+}
+.my-input {
+    width: 80% !important;
+    height: 40px;
+    box-shadow: 0px 0px 2px rgb(80, 80, 80);
+    padding: 0px 0px 0px 7px;
+    margin: 5px 0px 10px;
+    border: 2px solid rgb(59, 159, 241);
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+}
+.my-a-button {
+    background: #ff7f34 none repeat scroll 0% 0%;
+    font-weight: bold;
+    padding: 3% 15%;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    width: 70%;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-top: 5px !important;
+    max-width: 80%;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
+    box-sizing: content-box !important;
+}
+@media screen and (max-width: 1240px) and (min-width: 1025px){
+   .my-a-button {
+    font-size: 100%;
+    padding: 2% 10%;
+    width: 100% !important;
+}
+}
+</style>
+                <div id="comments">
+                    <br>
+                    <h1>
+                        Комментарии за
+                        <span id="clock"></span>:
+                        <!-- <em style="color: rgb(255, 255, 255); font-size: 12px;">(47/47)</em> -->
+                    </h1>
+                    <div class="comment">
+                        <span class="text1">Ульяна А.
+            </span>
+                        <span class="text2">
+            </span>
+                        <div class="text3">
+                            <img src="index_files\foto1.jpg" style="float: left; padding-right: 10px;" alt="img">
+                            <div class="txtCom"> У меня была мастопатия и помимо лечения врач настоятельно рекомендовала вести регулярную половую жизнь, но это легко сказать. Не то что бы я не хотела, но потенция у мужа уже давно стала подводить. Половая жизнь у нас была
+                                максимум 1-2 раза в месяц. Поговорила с ним, решили стараться почаще, но после пары неудач он совсем раскис. Хорошо что подруга посоветовала
+                                <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a>, я заказывала на
+                                <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">этом сайте</a> муж сразу начал применять. Ночью мы теперь не только спим, я уже забыла это ощущение, когда на следующий день просто летаешь! В общем
+                                рекомендую всем и не травитесь химией, это путь в никуда!</div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1">Марина
+            </span>
+                        <span class="text2">
+            </span>
+                        <div class="text3">
+                            <img src="index_files\foto2.jpg" style="float: left; padding-right: 10px;" alt=""> А у нас с мужем наоборот, всегда было регулярно, три раза в неделю или чаще. Но как-то случайно увидела, что муж виагру глотает! Представляете?
+                            Он мне ничего не говорил о своих проблемах, а я то думала, что он у меня молодец и возраст свое не берет... В общем очень сильно его отругала, тем более что у него от виагры начались головные боли и давление подскакивало! Зачем
+                            нужна радость в постели такой ценой??? Стали смотреть вместе с ним натуральные средства и наткнулись на
+                            <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a>, спасибо Леониду Александровичу, что рассказал! еще на сайте была акция, так что нам вдвойне повезло! Муж полностью восстановил
+                            потенцию, мне даже кажется что у него в молодости такой каменной эрекции не было. Прошло уже пол года, и пока тьфу-тьфу-тьфу не было проблем!
+                            <br>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1" style="color: rgb(180, 4, 4);">Леонид Александрович Саута
+            </span>
+                        <span class="text2">
+            </span>
+                        <div class="text3">
+                            <img src="index_files\images-icon.png" style="float:left; padding-right: 10px;" alt=""> Не мог пройти мимо этого отзыва... Марина, не за что! Не представляете как, я рад за вас, радуйтесь жизни и получайте удовольствие. Как
+                            вы правильно заметили, для этого не надо глотать таблетки и сажать сердце виагрой.
+                            <br> Я очень рад, что поднял эту важную тему, судя по количеству отзывов я это сделал не зря и проблема актуальна. Хочу еще раз обратиться ко всем и к мужчинам и к женщинам, не спешите убивать организм химией и не позволяйте
+                            это делать вашим близким людям!
+                            <br>
+                            <br>С уважением, Леонид.
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1">Диана Маленкина
+            </span>
+                        <span class="text2">
+            </span>
+                        <div class="text3">Мы с мужем очень давно про это средство узнали, у него первый раз проблемы начались после 40 и купили упаковку
+                            <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a> когда были на отдыхе за границей. Жалели, что взяли только одну, потому что результат превзошел все ожидания!
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1">Александр
+            </span>
+                        <span class="text2">
+            </span>
+                        <div class="text3">
+                            <img src="index_files\foto6.jpg" style="float: left; padding-right: 10px;" alt=""> Наверное все знают мою историю, про меня много писали в интернете. Пишу просто чтобы сказать спасибо Леониду Александровичу за то, что рассказал
+                            про это мощное натуральное средство всему миру. Я конечно тоже написал про него на своем блоге, но меня же мало народу читает. Если кратко, то меня под 60 лет угораздило жениться на 26-летней красавице! Радости не было предела,
+                            но я очень быстро понял, что в постели "не тяну". Молодой девушке сложно без этого, начались ссоры, ругань... Короче говоря, если бы не
+                            <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a>, то я вряд ли сохранил бы этот брак. А сейчас чувствую себя МУЖЧИНОЙ! И да! Снова стал самцом!
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1">Роман В.
+            </span>
+                        <span class="text2">
+            </span>
+                        <div class="text3">
+                            <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a> действительно классная вещь, мне её посоветовал друг, когда на одной пьянке я разоткровенничался и признался что без виагры уже не могу.
+                            Друг, спасибо ему, еще удивился зачем мне виагра, если я не 70-ти летний дед. Действительно потенция очень быстро вернулась и стала еще сильнее чем раньше, надеюсь что навсегда )) мужики, заказывайте, пока есть в наличии и
+                            пока там акция у них, отвечаю
+                            <br>
+                            <img src="index_files\14137402687.jpg" style="width: auto; height: auto;" alt="">
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1">Роман Ширяев
+            </span>
+                        <span class="text2">
+            </span>
+                        <div class="text3">Заказал
+                            <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a> на официальном сайте, эффект сильный и пока держится, надеюсь что не пропадет! Хочу только подсказать тем кто будет покупать, это не как
+                            виагра, все натурально, эффект мгновенный и длительный. Стойкий эффект, говорят что как минимум на 5 часов. </div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1">Леонид
+            </span>
+                        <span class="text2">
+            </span>
+                        <div class="text3">
+                            <img src="index_files\o111.jpg" style="float: left; padding-right: 10px;" alt=""> Начал применять
+                            <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a> в тайне от супруги, не хотел говорить что есть проблемки. И был потрясен эффектом! Да, эрекция наступает быстро и очень мощная! Но кроме
+                            того член сильнее увеличивается! Особенно в толщину когда наступает возбуждение. Представляете как жена была в шоке, она ведь меня много лет знает! Первый раз аж испугалась, стала спрашивать, не делал ли я операцию по увеличению
+                            члена! Еле успокоил её :) Половая жизнь стала на порядок лучше, жена так не кончала никогда! Раньше у нее оргазм был только если я во время секса ласкал её клитор, а теперь кончает только от члена! Вот видите как бывает, видимо
+                            моего размерчика немного не хватало...
+                            <br>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1">Полина
+            </span>
+                        <span class="text2">
+            </span>
+                        <div class="text3">Леонид, я тоже заметила у мужа такой эффект! И сразу оценила разницу. А до этого всю жизнь считала, что размер особого значения не имеет... Еще как имеет! Теперь действительно оргазмы испытываю фантастические, а раньше кончала
+                            далеко не каждый раз... Теперь как голодная девчонка на мужа набрасываюсь, аж самой стыдно иногда...</div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1">Дмитрий
+            </span>
+                        <span class="text2">
+            </span>
+                        <div class="text3">
+                            Поделюсь тоже своей радостью. Потенция восстановилась, снова начал получать радость от жизни и перестал париться на счет наступления старости. Мужчина должен оставаться мужчиной, это факт. Если не радоваться жизни и не дарить радость своей половинке,
+                            то зачем тогда жить?
+                            <br>
+                            <img src="index_files\erekciya031.jpg" style="width: auto; height: auto;">
+                        </div>
+                    </div>
+                    <div class="comment" id="services">
+                        <span class="text1">Виталий
+            </span>
+                        <span class="text2">
+            </span>
+                        <div class="text3">
+                            <img src="index_files\foto4.jpg" style="float: left; padding-right: 10px;" alt=""> Я просто поражен, стояк теперь действительно ЖЕЛЕЗНЫЙ! Недавно устроил секс-марафон, кувыркались с девушкой почти 3 часа. Ну с небольшими перерывами
+                            ))) Я кончил три раза! И вот еще что заметил, после того как кончу восстанавливаться стал очень быстро, буквально 5-10 минут и опять встает! Если конечно красивая девушка рядом. Эх, вспомнил и даже возбудился, уйду ка я сегодня
+                            с работы пораньше...
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1">Evgeniy 47
+            </span>
+                        <span class="text2">
+            </span>
+                        <div class="text3">Очень боялся этих всех средств, после того как стало плохо с сердцем после виагры. Но потом все же решил попробовать, т.к. натуральный продукт. И действительно, голова не болит, сердце не колотится бешенно как от виагры. Так что
+                            всем рекомендую, а по силе и длительности эрекции
+                            <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a> лучше виагры в 100 раз!
+                            <br>
+                            <img src="index_files\dxuwlw3dnnq.jpg" style="width: auto; height: auto;" alt="">
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1">Евгения Каримова
+            </span>
+                        <span class="text2">
+            </span>
+                        <div class="text3">Мужу очень помогло! Мне даже не себя было жалко, хотя тоже не хватало регулярного секса, а его. Я видела что на него постоянно депрессия накатывает, особенно когда мы попытались и ничего не получилось. Сейчас потенция в норме и
+                            он совершенно другой человек, веселый, жизнерадостный!!!
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1">Милана
+            </span>
+                        <span class="text2">
+            </span>
+                        <div class="text3">Спасибо,
+                            <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a> без преувеличения спас нашу семью! Да и экономия бюджета хорошая. Виагра в аптеке очень дорогая, а потратили кучу за последние годы.
+                            <br> </div>
+                        <br>
+                    </div>
+                    <div class="comment">
+                        <span class="text1">Глеб, 37 лет
+            </span>
+                        <span class="text2">
+            </span>
+                        <div class="text3">Люди, скажите где вы покупали? В аптеках такое средство не продается. Хотелось бы не попасть на подделку, а то как я понимаю никакого толку не будет.</div>
+                    </div>
+                    <div class="comment">
+                        <span class="text1" style="color: rgb(180, 4, 4);">Леонид Александрович Саута
+            </span>
+                        <span class="text2">
+            </span>
+                        <div class="text3">
+                            <img src="index_files\images-icon.png" style="float: left; padding-right: 10px;" alt=""> Ещё раз повторяю, что препарат "Ашваганда" можно заказать ТОЛЬКО на
+                            <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">официальном сайте</a>, чтобы не ошибиться, просто нажмите на кнопку ПОЛУЧИТЬ 1 УПАКОВКУ БЕСПЛАТНО чуть ниже!
+                            <br> И остерегайтесь, пожалуйста, подделок.
+                            <br>
+                            <br>С уважением, Леонид.
+                        </div>
+                    </div>
+                    <div class="comment"></div>
+                </div>
+                <div style="text-align: center;">
+                    <div class="insite">
+                        <a href="google.com" class="button_page">ПОЛУЧИТЬ 1 УПАКОВКУ БЕСПЛАТНО</a>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div class="strongRightbar">
+                <div class="sidebar" style="border: none">
+                    <div class="itemfirst">
+                        <div class="author">
+                            <br>
+                            <h3>Автор статьи:
+                                <br>Леонид Александрович Саута</h3>
+                            <a href="google.com">
+                                <img alt="" src="index_files\images.jpg" width="65">
+                            </a>
+                            <ul>
+                                <li>Заслуженный врач</li>
+                                <li>Доктор мед. наук</li>
+                                <li>Профессор</li>
+                                <li>Помог тысячам людей</li>
+                            </ul>
+                        </div>
+                        <p>
+                            В НМУ Урологии мы провели исследования свойств препарата
+                            <br>
+                            <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">
+                                <b>"Ашваганда"</b>
+                            </a>
+                        </p>
+                        <p>В результате 30-ти дневного исследования группы добровольцев из 82 человек, страдающих от импотенции и эректильной дисфункции. Были получены следующие результаты:</p>
+                        <hr>
+                        <br> 1. У всех добровольцев появилась мощная эрекция.
+                        <br>
+                        <br> 2. За время применения
+                        <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">"Ашваганда"</a> побочных действий не выявлено.
+                        <br>
+                        <br> 3. Большая часть добровольцев отметили значительное увеличение времени полового акта
+                        <span style="color: rgb(180, 4, 4);">(до 2-3 часов)</span>.
+                        <br>
+                        <br> 4. Многие добровольцы отметили увеличение длины и толщины полового члена в состоянии эрекции.
+                        <br>
+                        <br> 5. Отмечено увеличение кол-ва спермы при оргазме.
+                        <br>
+                        <br> 6. Оргазм стал более ярким и длительным.
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="itemfirst2" id="aside1" style="text-align: center;">
+                        <img src="https://ashvaganda1l.nutragoods.ru/img/pack.png" style="width: 260px;">
+                        <a href="google.com" class="under-href" style="font-weight: bold;color:#ff6600">
+                            <br>
+                            <br>"Ашваганда"</a>
+                        <br>
+                        <br>
+                        <div style="text-align: center;">
+                            <div class="insite">
+                                <a href="google.com" class="button_page">ПОЛУЧИТЬ 1 УПАКОВКУ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">© 2020 Все права защищены.</div>
+    </div>
+    <script type="text/javascript">
+        var monthNames = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября",
+            "ноября", "декабря"
+        ];
+        var d = new Date();
+        $('span.js-date-1').text(d.getDate() + ' ' + monthNames[d.getMonth()]);
+    </script>
+    <style>
+        .itemfirst2 {
+            text-align: center;
+            width: 275px;
+            padding: 12px;
+            background: rgb(241, 241, 241) none repeat scroll 0% 0%;
+            border: 1px solid rgb(225, 225, 225);
+            float: left;
+            margin-top: 20px;
+        }
+        @media screen and (max-width: 999px) {
+            .itemfirst2 {
+                display: none;
+            }
+        }
+        .insite {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .sticky {
+            position: fixed;
+            top: 10px;
+            z-index: 101;
+        }
+        .stop {
+            position: relative;
+            z-index: 101;
+        }
+    </style>
+    <script>
+        (function() { // анонимная функция (function(){ })(), чтобы переменные "a" и "b" не стали глобальными
+            var a = document.querySelector('#aside1'),
+                b = null; // селектор блока, который нужно закрепить
+            window.addEventListener('scroll', Ascroll, false);
+            document.body.addEventListener('scroll', Ascroll, false); // если у html и body высота равна 100%
+            function Ascroll() {
+                if (b == null) { // добавить потомка-обёртку, чтобы убрать зависимость с соседями
+                    var Sa = getComputedStyle(a, ''),
+                        s = '';
+                    for (var i = 0; i < Sa.length; i++) { // перечислить стили CSS, которые нужно скопировать с родителя
+                        if (Sa[i].indexOf('overflow') == 0 || Sa[i].indexOf('padding') == 0 || Sa[i].indexOf('border') == 0 || Sa[i].indexOf('outline') == 0 || Sa[i].indexOf('box-shadow') == 0 || Sa[i].indexOf('background') == 0) {
+                            s += Sa[i] + ': ' + Sa.getPropertyValue(Sa[i]) + '; '
+                        }
+                    }
+                    b = document.createElement('div'); // создать потомка
+                    b.style.cssText = s + ' box-sizing: border-box; width: ' + a.offsetWidth + 'px;';
+                    a.insertBefore(b, a.firstChild); // поместить потомка в цепляющийся блок первым
+                    var l = a.childNodes.length;
+                    for (var i = 1; i < l; i++) { // переместить во вновь созданного потомка всех остальных потомков (итого: создан потомок-обёртка, внутри которого по прежнему работают скрипты)
+                        b.appendChild(a.childNodes[1]);
+                    }
+                    a.style.height = b.getBoundingClientRect().height + 'px'; // если под скользящим элементом есть другие блоки, можно своё значение
+                    a.style.padding = '0';
+                    a.style.border = '0'; // если элементу присвоен padding или border
+                }
+                if (a.getBoundingClientRect().top <= 0) { // elem.getBoundingClientRect() возвращает в px координаты элемента относительно верхнего левого угла области просмотра окна браузера
+                    b.className = 'sticky';
+                } else {
+                    b.className = '';
+                }
+                window.addEventListener('resize', function() {
+                    a.children[0].style.width = getComputedStyle(a, '').width
+                }, false); // если изменить размер окна браузера, измениться ширина элемента
+            }
+            Ascroll();
+        })()
+    </script>
+    <!-- <script type="text/javascript" src="/www/includes/masked.js"></script> -->
+  <script>
+  $(document).ready(function(){
+  $(document).find('input[name="phone"]').mask("+38(111) 111-11-11");
+  });
+  </script>
+</body>
+</html>
